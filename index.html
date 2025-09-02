@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en" class="scroll-smooth"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Your Name | Personal Website&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Inter', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.gradient-text {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(to right, #6366f1, #a855f7, #ec4899);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-background-clip: text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-text-fill-color: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-clip: text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-fill-color: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="bg-gray-900 text-gray-200 antialiased"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Header &amp; Navigation --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;header class="fixed top-0 left-0 right-0 z-50 bg-gray-900 bg-opacity-80 backdrop-blur-md"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container mx-auto max-w-5xl px-6 py-4 flex justify-between items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#" class="text-xl font-bold tracking-tighter gradient-text"&gt;nakaj.me&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;nav class="hidden md:flex space-x-6 text-sm font-medium"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#about" class="text-gray-400 hover:text-white transition-colors"&gt;About&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#experience" class="text-gray-400 hover:text-white transition-colors"&gt;Experience&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#projects" class="text-gray-400 hover:text-white transition-colors"&gt;Projects&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#contact" class="text-gray-400 hover:text-white transition-colors"&gt;Contact&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Mobile Menu --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="mobile-menu" class="hidden md:hidden px-6 pb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#about" class="block py-2 text-gray-400 hover:text-white transition-colors"&gt;About&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#experience" class="block py-2 text-gray-400 hover:text-white transition-colors"&gt;Experience&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#projects" class="block py-2 text-gray-400 hover:text-white transition-colors"&gt;Projects&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#contact" class="block py-2 text-gray-400 hover:text-white transition-colors"&gt;Contact&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;main class="container mx-auto max-w-5xl px-6 pt-24 md:pt-32"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Hero Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="hero" class="text-center min-h-[60vh] flex flex-col justify-center items-center section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="https://placehold.co/128x128/1f2937/a855f7?text=NA" alt="Your Name" class="w-32 h-32 rounded-full mb-6 border-4 border-gray-700 shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Hi, I'm &lt;span class="gradient-text"&gt;Your Name&lt;/span&gt;.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>I'm a [Your Role, e.g., Software Developer, Designer, Student] passionate about building beautiful and functional web applications. Welcome to my personal space on the internet.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mt-8 flex justify-center gap-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#contact" class="bg-indigo-600 text-white font-medium py-2 px-6 rounded-lg hover:bg-indigo-500 transition-all"&gt;Get in Touch&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#projects" class="bg-gray-800 text-gray-300 font-medium py-2 px-6 rounded-lg hover:bg-gray-700 transition-all"&gt;View My Work&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- About Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="about" class="py-20 md:py-32 section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-5 gap-12 items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="md:col-span-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;h2 class="text-3xl font-bold mb-4 gradient-text tracking-tight"&gt;About Me&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;p class="text-gray-400 leading-relaxed mb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Hello! I'm [Your Name], a dedicated and curious individual with a background in [Your Field]. I thrive on solving complex problems and I'm currently exploring [Your Current Interest or Technology].</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;p class="text-gray-400 leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>When I'm not at my computer, you can find me [Your Hobby 1], [Your Hobby 2], or exploring the latest advancements in technology.</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="md:col-span-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-xl font-semibold mb-4 text-gray-200"&gt;My Skills&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex flex-wrap gap-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Add your skills here --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="bg-gray-800 text-indigo-300 text-sm font-medium px-4 py-2 rounded-full"&gt;JavaScript&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="bg-gray-800 text-indigo-300 text-sm font-medium px-4 py-2 rounded-full"&gt;React&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="bg-gray-800 text-indigo-300 text-sm font-medium px-4 py-2 rounded-full"&gt;Node.js&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="bg-gray-800 text-indigo-300 text-sm font-medium px-4 py-2 rounded-full"&gt;Python&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="bg-gray-800 text-indigo-300 text-sm font-medium px-4 py-2 rounded-full"&gt;HTML &amp; CSS&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="bg-gray-800 text-indigo-300 text-sm font-medium px-4 py-2 rounded-full"&gt;Tailwind CSS&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="bg-gray-800 text-indigo-300 text-sm font-medium px-4 py-2 rounded-full"&gt;Git &amp; GitHub&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="bg-gray-800 text-indigo-300 text-sm font-medium px-4 py-2 rounded-full"&gt;Figma&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Work Experience Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="experience" class="py-20 md:py-32 section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="text-center mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="text-3xl font-bold tracking-tight gradient-text"&gt;Work Experience&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-gray-400 mt-2"&gt;My professional journey so far.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="max-w-3xl mx-auto space-y-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Experience 1 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-gray-800/50 p-6 rounded-lg shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex flex-col sm:flex-row justify-between items-start"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="text-xl font-bold"&gt;[Current Job Title]&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-indigo-400 font-medium"&gt;[Company Name]&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="text-sm text-gray-500 mt-2 sm:mt-0"&gt;[Start Date] - Present&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-4 text-gray-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Detailed description of your role, responsibilities, and key achievements. Mention the technologies you used and the impact you made. For example: Led the development of a new feature that increased user engagement by 15%.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Experience 2 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-gray-800/50 p-6 rounded-lg shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex flex-col sm:flex-row justify-between items-start"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="text-xl font-bold"&gt;[Previous Job Title]&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-indigo-400 font-medium"&gt;[Another Company]&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="text-sm text-gray-500 mt-2 sm:mt-0"&gt;[Start Date] - [End Date]&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-4 text-gray-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Briefly describe your responsibilities and what you learned in this role. Focus on growth and contributions to the team and projects.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Projects Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="projects" class="py-20 md:py-32 section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="text-center mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="text-3xl font-bold tracking-tight gradient-text"&gt;Projects&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-gray-400 mt-2"&gt;A few things I've built.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Project 1 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-gray-800/50 rounded-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;img src="https://placehold.co/600x400/1f2937/a855f7?text=Project+1" alt="Project 1" class="w-full h-48 object-cover"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-xl font-bold mb-2"&gt;Project Title One&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-gray-400 mb-4 text-sm"&gt;A brief description of the project, the technologies used, and what it does. Keep it concise and impactful.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="#" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-medium transition-colors"&gt;View Project &amp;rarr;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Project 2 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-gray-800/50 rounded-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;img src="https://placehold.co/600x400/1f2937/ec4899?text=Project+2" alt="Project 2" class="w-full h-48 object-cover"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-xl font-bold mb-2"&gt;Project Title Two&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-gray-400 mb-4 text-sm"&gt;A brief description of the project, the technologies used, and what it does. Keep it concise and impactful.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="#" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-medium transition-colors"&gt;View Project &amp;rarr;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Project 3 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-gray-800/50 rounded-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;img src="https://placehold.co/600x400/1f2937/6366f1?text=Project+3" alt="Project 3" class="w-full h-48 object-cover"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-xl font-bold mb-2"&gt;Project Title Three&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-gray-400 mb-4 text-sm"&gt;A brief description of the project, the technologies used, and what it does. Keep it concise and impactful.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="#" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-medium transition-colors"&gt;View Project &amp;rarr;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Contact Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="contact" class="py-20 md:py-32 text-center section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;h2 class="text-3xl font-bold tracking-tight gradient-text"&gt;Get In Touch&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;p class="text-gray-400 mt-2 max-w-xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>I'm always open to discussing new projects, creative ideas, or opportunities to be part of an amazing team. Feel free to reach out!</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;div class="mt-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;a href="mailto:your.email@example.com" class="bg-indigo-600 text-white font-medium py-3 px-8 rounded-lg hover:bg-indigo-500 transition-all text-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Say Hello</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;div class="mt-12 flex justify-center gap-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Replace # with your GitHub profile URL --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#" target="_blank" class="text-gray-500 hover:text-white transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd" /&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Replace # with your Twitter/X profile URL --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#" target="_blank" class="text-gray-500 hover:text-white transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Replace # with your LinkedIn profile URL --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;a href="#" target="_blank" class="text-gray-500 hover:text-white transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"&gt;&lt;path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.206v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.47 1.344h2.94v8.59H3.535v-8.59zM17.67 2H6.33C4.002 2 2 4.002 2 6.33v11.34C2 19.998 4.002 22 6.33 22h11.34C19.998 22 22 19.998 22 17.67V6.33C22 4.002 19.998 2 17.67 2z" clip-rule="evenodd" /&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/main&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Footer --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer class="bg-gray-900 border-t border-gray-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container mx-auto max-w-5xl px-6 py-6 text-center text-sm text-gray-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;copy; 2024 Your Name. All Rights Reserved.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Mobile menu toggle</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const mobileMenuButton = document.getElementById('mobile-menu-button');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const mobileMenu = document.getElementById('mobile-menu');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>mobileMenuButton.addEventListener('click', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>mobileMenu.classList.toggle('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Close mobile menu on link click</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.querySelectorAll('#mobile-menu a').forEach(link =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>link.addEventListener('click', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>mobileMenu.classList.add('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Scroll animations</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const sections = document.querySelectorAll('.section');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const observer = new IntersectionObserver((entries) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>entries.forEach(entry =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (entry.isIntersecting) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>entry.target.style.opacity = 1;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>entry.target.style.transform = 'translateY(0)';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>entry.target.style.opacity = 0;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>entry.target.style.transform = 'translateY(20px)';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}, { threshold: 0.1 });</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>sections.forEach(section =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>section.style.opacity = 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>section.style.transform = 'translateY(20px)';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>observer.observe(section);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+<p class="p2"><br></p>
+</body>
+</html>
